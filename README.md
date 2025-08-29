@@ -20,3 +20,10 @@ JOIN DEPARTMENT d ON d.DEPARTMENT_ID = e.DEPARTMENT
 WHERE DAY(p.PAYMENT_TIME) <> 1
 ORDER BY p.AMOUNT DESC, p.PAYMENT_TIME DESC
 LIMIT 1;
+```
+
+## 📸 Sample Output
+
+Here is the actual console output after running the app:
+
+![Output Screenshot](Output.png)
